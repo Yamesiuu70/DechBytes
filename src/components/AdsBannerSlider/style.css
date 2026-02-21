@@ -1,0 +1,69 @@
+:root {
+  /* Background gradient for featured + ads banners */
+  --soft-bg: linear-gradient(90deg, #f4f6f8, #e9ecf0);
+}
+
+/* ==== ADS BANNER SLIDER ==== */
+.ads-banner-slider {
+  padding: 20px;
+  width: 100%;
+  background: var(--soft-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ads-swiper {
+  width: 100%;
+}
+
+.box.banner-box {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+}
+
+/* ==== FEATURED SECTION (if you want same style) ==== */
+.featured-section {
+  background: var(--soft-bg);
+  padding: 60px 0;
+  text-align: center;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.featured-header {
+  margin-bottom: 30px;
+}
+
+.featured-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.featured-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.featured-products-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}

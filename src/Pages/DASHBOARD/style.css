@@ -1,0 +1,88 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.sidebar-menu li:hover {
+  text-decoration: underline;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e0e7ff;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+.table-container th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.add-product-form {
+  max-width: 500px;
+}
+
+.add-product-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-product-form input,
+.add-product-form select,
+.add-product-form textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-product-form button {
+  padding: 10px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

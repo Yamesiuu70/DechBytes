@@ -1,0 +1,62 @@
+.verification-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #f5f6fa;
+  }
+  
+  .verification-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .verification-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #2f3640;
+  }
+  
+  .verification-form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .verification-form button {
+    width: 100%;
+    padding: 12px 0;
+    background: #4cd137;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .verification-form button:hover {
+    background: #44bd32;
+  }
+  
+  .verification-error {
+    color: #e84118;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .verification-success {
+    color: #44bd32;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  

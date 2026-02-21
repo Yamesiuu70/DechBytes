@@ -1,0 +1,50 @@
+.carbon-footprint-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: #f9f9f9;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-size: 14px;
+  width: 260px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1000;
+}
+
+.carbon-footprint-container h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1em;
+  color: #333;
+  text-align: center;
+}
+
+.carbon-footprint-container p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.carbon-refresh-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  background: linear-gradient(135deg, #4caf50, #43a047);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.carbon-refresh-btn:hover {
+  background: linear-gradient(135deg, #43a047, #388e3c);
+  transform: translateY(-2px);
+}
+
+.carbon-footprint-note {
+  font-size: 0.75em;
+  color: #888;
+  margin-top: 6px;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+.order-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.order-summary,
+.order-form {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.order-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-form button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-bottom: 0.5rem;
+}

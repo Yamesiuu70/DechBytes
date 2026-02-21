@@ -1,0 +1,168 @@
+:root {
+  --primary-color: #ff5252;
+}
+*{margin: 0px;padding :0px;box-sizing:border-box}
+/* 🔴 Top Strip */
+.top-strip {
+  background-color: var(--primary-color);
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.border-strip {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* 🟢 Flex Utilities */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* 💬 Top Strip Content */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col1 {
+  width: 50%;
+}
+
+.promo-text {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* 🔗 Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 5rem; /* simulates Tailwind's gap-20 */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+/* 🔵 Main Header */
+.main-header {
+  padding: 1rem 0;
+  background-color: white;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+.search-box {
+  width: 100%;
+  height: 50px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  position: relative;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.search-input {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 15px;
+}
+/* 🔘 Header Icons Section */
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.signin-button {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 14px;
+  padding: 6px 14px;
+}
+
+.icon-button {
+  color: #333;
+  padding: 5px;
+}
+
+.icon-button:hover {
+  background-color: #f3f3f3;
+}
+.main-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* 🔷 Logo */
+.header-logo img.logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* 🔶 Search area */
+.header-search {
+  flex: 1;
+  max-width: 500px;
+}
+
+/* 🔘 Icons section */
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.signin-button {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 16px;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+.icon-button {
+  color: #333;
+}
