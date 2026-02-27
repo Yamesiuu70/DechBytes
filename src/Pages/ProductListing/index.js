@@ -4,7 +4,7 @@ import useAuth from "../../hooks/useAuth";
 import "./style.css";
 
 const MIN_PRICE = 0;
-const MAX_PRICE = 1050000;
+const MAX_PRICE = 30000;
 
 const CATEGORY_CONFIG = [
   {
